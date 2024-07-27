@@ -11,9 +11,9 @@ Write a loop that makes seven calls to console.log to output the following trian
 ###### 
 #######
 */
-let i = 0 ;
-while ( i <= 7 ) {
+let i = 1 ;
+while ( i < 8 ) {
      console.log ( i );
-     i++ ;
+     i ++ ;
 }
 // ძიეზები ვერ ჩავსვი

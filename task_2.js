@@ -13,10 +13,10 @@ So if you solved it, your labor market value just went up.)
 3. რიცხვები, რომლებიც იყოფა ორივეზე 3 -ზეც და 5 -ზეც გამოიტანეთ "FizzBuzz"
 */
 let x = 0;
-while (x <= 100) {
-     console.log ( x );
+while (x < 100) {
      x = x + 1 ;
      // x++;
+
      if ( x % 3 ===0 && x % 5 !==0 ) {
           console.log("Fizz");
      }
@@ -25,6 +25,8 @@ while (x <= 100) {
      }
      if ( x % 3 ===0 && x % 5 ===0 ) {
           console.log("FizzBuzz");
+     } else {
+          console.log ( x );
      }
 }
 //  მიწერს ციფრსაც და მინიჭებულ სახელსაც
