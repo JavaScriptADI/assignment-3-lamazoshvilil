@@ -12,15 +12,10 @@ Write a loop that makes seven calls to console.log to output the following trian
 #######
 */
 let i = 0 ;
-let row = `#`
+let row = ``
 while ( i < 7 ) {
      i ++ ;
-     console.log ( i );
+     row += "#"
+     console.log ( row );
 }
-// ძიეზები ვერ ჩავსვი
-// let triangle = '';
-// for (let i = 1; i <= 7; i++) {
-//     triangle += '#';
-//     console.log(triangle);
-// }
 // აქ კიდევ სამუშაო მაქვს
