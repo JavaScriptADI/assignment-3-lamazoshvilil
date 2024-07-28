@@ -22,3 +22,14 @@ console.log -ს რომ გადაცემთ ამ ფუნქცია
  # # # #
 # # # # 
 */
+let i = 0
+let row = "  # # # #"
+let rowLeft = "# # # # "
+while ( i <= 7) {
+     i ++ ;
+     if ( i % 2 === 0) {
+          console.log ( row );
+     } else {
+          console.log ( rowLeft );
+     }
+}

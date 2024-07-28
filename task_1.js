@@ -11,3 +11,11 @@ Write a loop that makes seven calls to console.log to output the following trian
 ###### 
 #######
 */
+let i = 0 ;
+let row = ``
+while ( i < 7 ) {
+     i ++ ;
+     row += "#"
+     console.log ( row );
+}
+// აქ კიდევ სამუშაო მაქვს
