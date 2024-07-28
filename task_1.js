@@ -11,9 +11,16 @@ Write a loop that makes seven calls to console.log to output the following trian
 ###### 
 #######
 */
-let i = 1 ;
-while ( i < 8 ) {
-     console.log ( i );
+let i = 0 ;
+let row = `#`
+while ( i < 7 ) {
      i ++ ;
+     console.log ( i );
 }
 // ძიეზები ვერ ჩავსვი
+// let triangle = '';
+// for (let i = 1; i <= 7; i++) {
+//     triangle += '#';
+//     console.log(triangle);
+// }
+// აქ კიდევ სამუშაო მაქვს
